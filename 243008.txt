@@ -1,0 +1,46 @@
+243008
+13.C:\Users\sofij\OneDrive\Desktop\lab\SI_2026_Lab1_243008>git merge feature-search-books
+Updating 8e81ff4..1ddcebd
+Fast-forward
+ SI2026Lab1Main.java | 11 +++++++++--
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+
+C:\Users\sofij\OneDrive\Desktop\lab\SI_2026_Lab1_243008>git log --oneline --graph --all
+* 1ddcebd (HEAD -> master, origin/feature-search-books, feature-search-books) Implement book search
+* 8e81ff4 (origin/master) Add starter code
+* bfbd75a Initial commit
+Fast-forward merge се случува кога нема дивергенција помеѓу гранките.Тоа значи дека master нема нови commits и само се поместува покажувачот кон новата гранка.
+ 
+
+
+22. C:\Users\sofij\OneDrive\Desktop\lab\SI_2026_Lab1_243008>git merge master
+Auto-merging SI2026Lab1Main.java
+CONFLICT (content): Merge conflict in SI2026Lab1Main.java
+Automatic merge failed; fix conflicts and then commit the result.
+Имаше конфликт го решив со incoming change
+
+C:\Users\sofij\OneDrive\Desktop\lab\SI_2026_Lab1_243008>git add .
+
+C:\Users\sofij\OneDrive\Desktop\lab\SI_2026_Lab1_243008>git commit -m "Merge conflict solved"
+[feature-borrow-book 92ccf96] Merge conflict solved
+
+C:\Users\sofij\OneDrive\Desktop\lab\SI_2026_Lab1_243008>git status
+On branch feature-borrow-book
+nothing to commit, working tree clean
+
+23. C:\Users\sofij\OneDrive\Desktop\lab\SI_2026_Lab1_243008>git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\sofij\OneDrive\Desktop\lab\SI_2026_Lab1_243008>git merge feature-genre-report
+Auto-merging SI2026Lab1Main.java
+Merge made by the 'ort' strategy.
+ SI2026Lab1Main.java | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+Recursive merge се користи кога двете гранки имаат различни commits.
+Git креира нов commit кој ги спојува промените од двете гранки.
+
+
+

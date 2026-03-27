@@ -1,0 +1,16 @@
+*   8a5810d Resolve conflict
+|\  
+| *   92ccf96 Merge conflict solved
+| |\  
+| * | 18188a8 Implement borrow book
+* | |   8d7bb25 Merge branch 'feature-genre-report'
+|\ \ \  
+| |_|/  
+|/| |   
+| * | 357d4d5 Implement genre report
+| |/  
+* / 2bfdf05 Update borrow message on master
+|/  
+* 1ddcebd Implement book search
+* 8e81ff4 Add starter code
+* bfbd75a Initial commit
